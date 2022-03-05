@@ -136,7 +136,14 @@ function rgb() {
     document.getElementById('r').innerHTML=random_r;
     document.getElementById('g').innerHTML=random_g;
     document.getElementById('b').innerHTML=random_b;
-    ans_box = Math.floor(Math.random()*6 + 1);
+    int value;
+    if (color4.style.visibility == "hidden") {
+        value = 3;
+    }
+    else {
+        value = 6;
+    }
+    ans_box = Math.floor(Math.random()*value+1);
     if (ans_box==1) {
         color1.style.background = "rgb("+random_r+","+random_g+","+random_b+")";
         color2.style.background = "rgb("+random_g/6+","+random_r+","+random_b/3+")";
