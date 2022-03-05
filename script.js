@@ -136,7 +136,7 @@ function rgb() {
     document.getElementById('r').innerHTML=random_r;
     document.getElementById('g').innerHTML=random_g;
     document.getElementById('b').innerHTML=random_b;
-    int value;
+    let value;
     if (color4.style.visibility == "hidden") {
         value = 3;
     }
