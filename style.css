@@ -35,6 +35,7 @@ body {
     font-weight: 700;
     padding-bottom: 15px;
     padding-top: 15px;
+    outline-style: none;
     font-size: 15px;
 }
 #tryagain {
@@ -68,6 +69,8 @@ body {
     border-radius: 15px;
     height:120px;
     width:120px;
+    transition: all 0.3s;
+    outline-style: none;
 }
 #c2 {
     background-color: rgba(11, 15, 226, 0.76);
@@ -80,6 +83,8 @@ body {
     margin-top: 30px;
     height: 120px;
     width:120px;
+    transition: all 0.3s;
+    outline-style: none;
 }
 #c3 {
     background-color: rgb(191, 128, 207);
@@ -91,6 +96,8 @@ body {
     margin-top: 30px;
     height:120px;
     width:120px;
+    outline-style: none;
+    transition: all 0.3s;
 }
 #c4 {
     background-color: rgb(63, 16, 235);
@@ -104,6 +111,8 @@ body {
     border-radius: 15px;
     height:120px;
     width:120px;
+    transition: all 0.3s;
+    outline-style: none;
 }
 #c5 {
     background-color: rgb(241, 160, 37);
@@ -116,6 +125,8 @@ body {
     border-radius: 15px;
     height:120px;
     width:120px;
+    transition: all 0.3s;
+    outline-style: none;
 }
 #c6 {
     background-color: rgb(245, 77, 189);
@@ -128,6 +139,8 @@ body {
     border-radius: 15px;
     height:120px;
     width:120px;
+    transition: all 0.3s;
+    outline-style: none;
 }
 #c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover, #c6:hover {
     filter: brightness(0.8);
